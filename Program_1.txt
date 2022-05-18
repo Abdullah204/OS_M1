@@ -1,0 +1,8 @@
+semWait userInput
+assign var1 input
+assign var2 input
+assign var3 input
+semSignal userInput
+semWait userOutput
+printFromTo var1 var2
+semSignal userOutput
